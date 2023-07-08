@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Profile.css';
 import Card from '../UI/Card';
-import Button from '../UI/button';
+import Button from '../UI/Button';
 import jeremy from '/img/image-jeremy.png';
 
 function Profile (props) {
