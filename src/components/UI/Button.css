@@ -1,0 +1,8 @@
+.button{
+  text-decoration: none;
+  color: var(--paleBlue);
+}
+
+.button.active{
+  color: white;
+}

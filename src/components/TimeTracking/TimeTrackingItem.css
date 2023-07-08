@@ -1,0 +1,15 @@
+.time-tracking__wrapper{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.time-tracking__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-tracking--previous{
+    color: var(--paleBlue);
+}

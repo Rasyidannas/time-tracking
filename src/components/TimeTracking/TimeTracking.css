@@ -1,0 +1,65 @@
+.card--time-tracking{
+    margin-top: -1.5rem;
+    background-color: var(--darkBlue);
+    position: relative;
+
+    flex: 1 0 calc(33% - 1.5rem);
+}
+
+.time-tracking__box > div {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.time-tracking__bg{
+    height: 6rem;
+    border-radius: 1rem;
+}
+
+.time-tracking__box > div:nth-of-type(1) .time-tracking__bg{
+    background-color: var(--lightOrange);
+    background-image: url("/img/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem top -.8rem;
+    background-size: 7.5rem;
+}
+
+.time-tracking__box > div:nth-of-type(2) .time-tracking__bg{
+    background-color: var(--softBlue);
+    background-image: url("/img/icon-play.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem top -.8rem;
+    background-size: 7.5rem;
+}
+
+.time-tracking__box > div:nth-of-type(3) .time-tracking__bg{
+    background-color: var(--lightRed);
+    background-image: url("/img/icon-study.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem top -.8rem;
+    background-size: 7.5rem;
+}
+
+.time-tracking__box > div:nth-of-type(4) .time-tracking__bg{
+    background-color: var(--limeGreen);
+    background-image: url("/img/icon-exercise.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem top -.8rem;
+    background-size: 7.5rem;
+}
+
+.time-tracking__box > div:nth-of-type(5) .time-tracking__bg{
+    background-color: var(--violet);
+    background-image: url("/img/icon-social.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem top -.8rem;
+    background-size: 7.5rem;
+}
+
+.time-tracking__box > div:nth-of-type(6) .time-tracking__bg{
+    background-color: var(--softOrange);
+    background-image: url("/img/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem top -1rem;
+    background-size: 7.5rem;
+}
